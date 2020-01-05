@@ -31,7 +31,7 @@ export default function Login({ getUser, changeScreen }) {
   };
 
   const auth = () => {
-    fetch("http://192.168.1.5:3000/login", {
+    fetch("http://192.168.0.136:3000/login", {
       method: "POST",
       headers: {
         Accept: "application/json",
